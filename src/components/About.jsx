@@ -112,22 +112,22 @@ const About = () => {
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                         <PerInfo 
-                            image="/public/assets/Feature-interior-on-one-of-the-best-interior-decorating-websites-Design-Milk.jpg" 
+                            image="/assets/Feature-interior-on-one-of-the-best-interior-decorating-websites-Design-Milk.jpg" 
                             title="Mr. Pranav Parikh" 
                             deg="Marketing Head" 
                         />
                         <PerInfo 
-                            image="/public/assets/Feature-interior-on-one-of-the-best-interior-decorating-websites-Design-Milk.jpg" 
+                            image="/assets/Feature-interior-on-one-of-the-best-interior-decorating-websites-Design-Milk.jpg" 
                             title="Mr. Pranav Parikh" 
                             deg="Marketing Head" 
                         />
                         <PerInfo 
-                            image="/public/assets/Feature-interior-on-one-of-the-best-interior-decorating-websites-Design-Milk.jpg" 
+                            image="/assets/Feature-interior-on-one-of-the-best-interior-decorating-websites-Design-Milk.jpg" 
                             title="Mr. Pranav Parikh" 
                             deg="Marketing Head" 
                         />
                         <PerInfo 
-                            image="/public/assets/Feature-interior-on-one-of-the-best-interior-decorating-websites-Design-Milk.jpg" 
+                            image="/assets/Feature-interior-on-one-of-the-best-interior-decorating-websites-Design-Milk.jpg" 
                             title="Mr. Pranav Parikh" 
                             deg="Marketing Head" 
                         />

@@ -54,7 +54,7 @@ const Navigation = () => {
                 <div className="flex justify-between items-center h-16 sm:h-20">
                     {/* Logo */}
                     <div className="flex-shrink-0">
-                        <img src="/public/assets/logo.jpg" alt="Logo" className="min-h-24 w-auto sm:h-16" />
+                        <img src="/assets/logo.jpg" alt="Logo" className="min-h-24 w-auto sm:h-16" />
                     </div>
 
                     {/* Desktop Navigation */}
