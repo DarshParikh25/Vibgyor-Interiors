@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Projects = () => {
     return (
         <div>
@@ -9,17 +7,17 @@ const Projects = () => {
                     <div className="grid md:grid-cols-3 gap-6">
                         {[
                             { 
-                                image: '/api/placeholder/400/300', 
+                                image: '#', 
                                 title: 'Modern Minimalist Home', 
                                 desc: 'Sleek, contemporary design for urban living' 
                             },
                             { 
-                                image: '/api/placeholder/400/300', 
+                                image: '#', 
                                 title: 'Rustic Farmhouse Kitchen', 
                                 desc: 'Warm and inviting kitchen renovation' 
                             },
                             { 
-                                image: '/api/placeholder/400/300', 
+                                image: '#', 
                                 title: 'Office Space Redesign', 
                                 desc: 'Productive and inspiring workspace' 
                             }

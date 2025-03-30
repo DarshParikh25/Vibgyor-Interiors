@@ -3,7 +3,7 @@ import ImageCarousel from './Image';
 const Home = () => {
     const scrollToSection = (elementId) => {
         const element = document.getElementById(elementId);
-        const offset = elementId === 'about' ? 50 : 0; // Add 50px offset for About section
+        const offset = elementId === 'contact' ? 30 : 50; // Add 30px offset for Contact section and 50px for rest of the sections
         const elementPosition = element.getBoundingClientRect().top;
         const offsetPosition = elementPosition + window.pageYOffset - offset;
         

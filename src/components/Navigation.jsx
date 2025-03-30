@@ -29,8 +29,9 @@ const Navigation = () => {
 
     const scrollToSection = (elementId) => {
         const element = document.getElementById(elementId);
+        const offset = elementId === 'contact' ? 30 : 50; // Add 30px offset for Contact section and 50px for rest of the sections
         const elementPosition = element.getBoundingClientRect().top;
-        const offsetPosition = elementPosition + window.pageYOffset - 50;
+        const offsetPosition = elementPosition + window.pageYOffset - offset;
         
         window.scrollTo({
             top: offsetPosition,
@@ -53,7 +54,7 @@ const Navigation = () => {
                 <div className="flex justify-between items-center h-16 sm:h-20">
                     {/* Logo */}
                     <div className="flex-shrink-0">
-                        <img src="src/assets/logo.jpg" alt="Logo" className="min-h-24 w-auto sm:h-16" />
+                        <img src="/public/assets/logo.jpg" alt="Logo" className="min-h-24 w-auto sm:h-16" />
                     </div>
 
                     {/* Desktop Navigation */}

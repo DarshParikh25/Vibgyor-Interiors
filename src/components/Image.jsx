@@ -3,19 +3,19 @@ import { useState, useEffect } from 'react';
 const ImageCarousel = () => {
   const images = [
     {
-      src: "src/assets/Feature-interior-on-one-of-the-best-interior-decorating-websites-Design-Milk.jpg",
+      src: "/public/assets/Feature-interior-on-one-of-the-best-interior-decorating-websites-Design-Milk.jpg",
       alt: "Modern Living Room"
     },
     {
-      src: "src/assets/living-room-by-top-interior-design-website-Decorilla-scaled.jpg",
+      src: "/public/assets/living-room-by-top-interior-design-website-Decorilla-scaled.jpg",
       alt: "Luxury Kitchen"
     },
     {
-      src: "src/assets/villa-interior-designer-services.jpeg",
+      src: "/public/assets/villa-interior-designer-services.jpeg",
       alt: "Minimalist Bedroom"
     },
     {
-      src: "src/assets/WhatsApp-Image-2022-11-18-at-1.28.11-PM-1030x572.jpeg",
+      src: "/public/assets/WhatsApp-Image-2022-11-18-at-1.28.11-PM-1030x572.jpeg",
       alt: "Minimalist Bedroom"
     }
   ];
