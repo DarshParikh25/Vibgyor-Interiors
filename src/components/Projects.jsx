@@ -1,7 +1,7 @@
 const Projects = () => {
     return (
         <div>
-            <section id="projects" className="min-h-screen pt-20 bg-blue-50">
+            <section id="projects" className="min-h-screen pt-20 bg-secondary-50">
                 <div className="container mx-auto px-4 text-center">
                     <h2 className="text-3xl font-bold mb-8 text-gray-800">Our Projects</h2>
                     <div className="grid md:grid-cols-3 gap-6">

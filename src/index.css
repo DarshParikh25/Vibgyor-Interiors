@@ -22,11 +22,11 @@
   }
   
   .btn-primary {
-    @apply btn bg-primary-600 text-white hover:bg-primary-700 focus:ring-primary-500;
+    @apply btn bg-primary-600 text-white hover:bg-primary-700 outline-none;
   }
   
   .btn-secondary {
-    @apply btn bg-secondary-100 text-secondary-700 hover:bg-secondary-200 focus:ring-secondary-500;
+    @apply btn bg-secondary-100 text-secondary-700 hover:bg-secondary-200 outline-none;
   }
   
   .card {
