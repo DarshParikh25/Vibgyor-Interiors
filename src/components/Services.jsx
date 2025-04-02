@@ -48,7 +48,7 @@ const Services = () => {
     ];
 
     return (
-        <section id="services" className="py-20">
+        <section id="services" className="py-20 px-4">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Section Header */}
                 <div className="text-center mb-16">
@@ -64,7 +64,7 @@ const Services = () => {
                     {services.map((service, index) => (
                         <div 
                             key={index}
-                            className="group relative bg-white rounded-2xl p-8 shadow-sm hover:shadow-lg transition-all duration-300"
+                            className="group relative bg-white rounded-2xl p-8 shadow-md hover:shadow-xl transition-all duration-300"
                         >
                             <div className="absolute inset-0 bg-gradient-to-br from-primary-50 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                             <div className="relative">

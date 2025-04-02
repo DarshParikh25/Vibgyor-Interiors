@@ -3,10 +3,10 @@ import Flow from './Flow'
 
 const About = () => {
     return (
-        <section id="about" className="py-20 bg-secondary-50">
+        <section id="about" className="py-12 px-4 sm:py-20 bg-secondary-50">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Section Header */}
-                <div className="text-center mb-16">
+                <div className="text-center mb-8 sm:mb-16">
                     <div className="inline-block w-24 h-1 bg-primary-500 rounded-full mb-4" />
                     <h2 className="text-3xl sm:text-4xl font-bold text-secondary-900 mb-4">
                         About Us
@@ -100,8 +100,8 @@ const About = () => {
                 </div>
 
                 {/* Team Section */}
-                <div className="mt-32">
-                    <div className="text-center mb-16">
+                <div className="mt-16 sm:mt-32">
+                    <div className="text-center mb-8 sm:mb-16">
                         <div className="relative inline-block">
                             <h2 className="text-3xl sm:text-4xl font-bold text-secondary-900 mb-4">
                                 Meet Our Team
@@ -110,24 +110,24 @@ const About = () => {
                             <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-16 h-1 bg-primary-500 rounded-full" />
                         </div>
                     </div>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8">
                         <PerInfo 
-                            image="/assets/Feature-interior-on-one-of-the-best-interior-decorating-websites-Design-Milk.jpg" 
+                            image="/assets/Living-room-3.jpeg" 
                             title="Mr. Pranav Parikh" 
                             deg="Marketing Head" 
                         />
                         <PerInfo 
-                            image="/assets/Feature-interior-on-one-of-the-best-interior-decorating-websites-Design-Milk.jpg" 
+                            image="/assets/Living-room-3.jpeg" 
                             title="Mr. Pranav Parikh" 
                             deg="Marketing Head" 
                         />
                         <PerInfo 
-                            image="/assets/Feature-interior-on-one-of-the-best-interior-decorating-websites-Design-Milk.jpg" 
+                            image="/assets/Living-room-3.jpeg" 
                             title="Mr. Pranav Parikh" 
                             deg="Marketing Head" 
                         />
                         <PerInfo 
-                            image="/assets/Feature-interior-on-one-of-the-best-interior-decorating-websites-Design-Milk.jpg" 
+                            image="/assets/Living-room-3.jpeg" 
                             title="Mr. Pranav Parikh" 
                             deg="Marketing Head" 
                         />
@@ -135,7 +135,7 @@ const About = () => {
                 </div>
 
                 {/* Process Flow Section */}
-                <div className="mt-32">
+                <div className="mt-16 sm:mt-32">
                     <div className="relative">
                         <Flow />
                     </div>

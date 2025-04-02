@@ -1,4 +1,4 @@
-import React from 'react';
+import 'remixicon/fonts/remixicon.css'
 import Navigation from './components/Navigation';
 import Home from './components/Home';
 import About from './components/About';
